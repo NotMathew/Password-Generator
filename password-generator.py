@@ -120,7 +120,7 @@ def main():
                 return
             elif choice == '4':
                 print("Regenerating passwords...")
-                break  # This will break the inner loop and regenerate passwords
+                break
             elif choice == '5':
                 print("Exiting without saving passwords.")
                 return
