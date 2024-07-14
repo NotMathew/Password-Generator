@@ -81,6 +81,13 @@ def export_to_file(passwords):
 
 
 def main():
+    print("""
+      .--.
+    /.-. '----------.
+    \'-' .--"--""-"-'
+     '--'
+    Password-Generator
+    """)
     password_length = get_positive_integer_input("Enter the desired password length: ")
     num_passwords = get_positive_integer_input("Enter the number of passwords to generate: ")
 
@@ -120,7 +127,7 @@ def main():
                 return
             elif choice == '4':
                 print("Regenerating passwords...")
-                break
+                break  # This will break the inner loop and regenerate passwords
             elif choice == '5':
                 print("Exiting without saving passwords.")
                 return
