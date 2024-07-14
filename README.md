@@ -7,7 +7,7 @@ Go to [Releases](https://github.com/NotMathew/Password-Generator/releases) and d
 ## Installation on Linux
 
 ```
-https://github.com/NotMathew/Password-Generator
+git clone https://github.com/NotMathew/Password-Generator
 cd Password-Generator
 sudo python -m pip install -r requirements.txt
 python password-generator.py
