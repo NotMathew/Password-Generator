@@ -2,8 +2,12 @@
 Just a random password generator tool
 
 
+
+
 ## Installation on Windows 10/11
 Go to [Releases](https://github.com/NotMathew/Password-Generator/releases) and download the lastest version
+
+
 
 
 ## Installation on Linux
