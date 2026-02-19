@@ -9,13 +9,13 @@ Go to [Releases](https://github.com/NotMathew/Password-Generator/releases) and d
 ```
 git clone https://github.com/NotMathew/Password-Generator.git
 cd Password-Generator
-clang++ password-generator.cpp resource.res -o password-generator
+clang++ password-generator.cpp -o password-generator
 ./password-generator
 ```
 or
 ```
 git clone https://github.com/NotMathew/Password-Generator.git
 cd Password-Generator
-g++ password-generator.cpp resource.res -o password-generator
+g++ password-generator.cpp -o password-generator
 ./password-generator
 ```
